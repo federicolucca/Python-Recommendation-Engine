@@ -20,7 +20,7 @@ Backend for web based recommendation system is also available [here](https://git
 
 - [Rest Api](https://github.com/AdnanShah/Python-Recommendation-System/tree/rest_api_lightfm/django-rest-framework/fm_Rec): I also created a rest api for the recommender using django and django-restframework which takes user_id as input and predict items user may also like.
 
-### The main contents of this project are following:
+## The main contents of this project are following:
 
 - Implementation of implicit collaborative filtering using [LightFM framework](https://github.com/lyst/lightfm).
 - Different ways of recommendating items to uers(user-user or item-item)
