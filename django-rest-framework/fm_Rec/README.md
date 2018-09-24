@@ -2,7 +2,7 @@
 
 This repo demonstrate a online retail recommendation system which recommend items for the user.
 
-Here are the different notebooks:
+<!-- Here are the different notebooks: -->
 
 - [Data Processing](https://github.com/AdnanShah/Python-Recommendation-System/blob/rest_api_lightfm/retail_recom_sys_DATA_PRE_PROCESSING.ipynb): Loading and processing the data to prepare them for input into my models.
 - [Deep Learning Model](https://github.com/AdnanShah/Python-Recommendation-System/blob/rest_api_lightfm/lightFM_retail_recom_sys_MODEL_CREATION.ipynb): This file is responsible for the creation of deep leaning model. This file use implicit collaborative filtering which is a Deep Learning approach to predict the items.
