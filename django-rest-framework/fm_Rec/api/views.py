@@ -20,7 +20,7 @@ class UserInfoView(APIView):
         return Response(userInfo.data)
 
     def post(self, request, format=None):
-        print("request.data", request.data['user_id'])
+        print("request.data", request.data['user_id'], request.data)
 
         display_recommended_items(
             model, product_train, request.data['user_id'])
