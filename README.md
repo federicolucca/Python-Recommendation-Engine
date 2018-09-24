@@ -1,11 +1,11 @@
-# User-Item Recommendation Systems
+# User-Item Recommendation System
 
-This repo demonstrate a online retail recommendation systems which recommend items for the users.
+This repo demonstrate a online retail recommendation system which recommend items for the user.
 
 Here are the different notebooks:
 
 - [Data Processing](https://github.com/AdnanShah/Python-Recommendation-System/blob/rest_api_lightfm/retail_recom_sys_DATA_PRE_PROCESSING.ipynb): Loading and processing the data to prepare them for input into my models.
-- [Deep Learning Model](https://github.com/AdnanShah/Python-Recommendation-System/blob/rest_api_lightfm/lightFM_retail_recom_sys_MODEL_CREATION.ipynb): This file is responsile for the creation of deep leaning model. This file use implicit collaborative filtering which is a Deep Learning approach to predict the items.
+- [Deep Learning Model](https://github.com/AdnanShah/Python-Recommendation-System/blob/rest_api_lightfm/lightFM_retail_recom_sys_MODEL_CREATION.ipynb): This file is responsible for the creation of deep leaning model. This file use implicit collaborative filtering which is a Deep Learning approach to predict the items.
 - [Making Predictions](https://github.com/AdnanShah/Python-Recommendation-System/blob/rest_api_lightfm/lightFM_retail_recom_sys_PREDICTIONS.ipynb): Making predictions of items user may like based on user_id and also item_id user purchased.
 
 ## Data Source
@@ -19,6 +19,12 @@ https://www.kaggle.com/jihyeseo/online-retail-data-set-from-uci-ml-repo
 Backend for web based recommendation system is also available [here](https://github.com/AdnanShah/Python-Recommendation-System/tree/rest_api_lightfm/django-rest-framework/fm_Rec):
 
 - [Rest Api](https://github.com/AdnanShah/Python-Recommendation-System/tree/rest_api_lightfm/django-rest-framework/fm_Rec): I also created a rest api for the recommender using django and django-restframework which takes user_id as input and predict items user may also like.
+
+### The main contents of this project are following:
+
+- Implementation of implicit collaborative filtering using [LightFM framework](https://github.com/lyst/lightfm).
+- Different ways of recommendating items to uers(user-user or item-item)
+- Implementation of demo program of the recommender system
 
 ## Installing
 
