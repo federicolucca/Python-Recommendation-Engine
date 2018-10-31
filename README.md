@@ -5,16 +5,18 @@ This repo demonstrate a ecommerce recommendation engine which recommend items fo
 Here are the different notebooks:
 
 - [Data Processing](https://github.com/AdnanShah/Python-Recommendation-System/blob/rest_api_lightfm/retail_recom_sys_DATA_PRE_PROCESSING.ipynb): Loading and processing the data to prepare for input into model.
-- [Deep Learning Model](https://github.com/AdnanShah/Python-Recommendation-System/blob/rest_api_lightfm/lightFM_retail_recom_sys_MODEL_CREATION.ipynb): This file is responsible for the creation of deep leaning model. This file use implicit collaborative filtering which is a Deep Learning approach to predict the items.
+- [Model Creation](https://github.com/AdnanShah/Python-Recommendation-System/blob/rest_api_lightfm/lightFM_retail_recom_sys_MODEL_CREATION.ipynb): This file is responsible for the creation of deep leaning model. This file use implicit collaborative filtering which is a Deep Learning approach to predict the items.
 - [Making Predictions](https://github.com/AdnanShah/Python-Recommendation-System/blob/rest_api_lightfm/lightFM_retail_recom_sys_PREDICTIONS.ipynb): Making predictions of items user may like based on user_id and also item_id user purchased.
 
-## Data Source
+## [Data Source](
+https://www.kaggle.com/jihyeseo/online-retail-data-set-from-uci-ml-repo
+)
 
 This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.
 
 https://www.kaggle.com/jihyeseo/online-retail-data-set-from-uci-ml-repo
 
-## Rest Api
+## [Rest Api](https://github.com/AdnanShah/Recommendation-Engine/tree/rest_api_lightfm/django-rest-framework/fm_Rec)
 
 Backend for web based recommendation system is also available [here](https://github.com/AdnanShah/Python-Recommendation-System/tree/rest_api_lightfm/django-rest-framework/fm_Rec):
 
@@ -41,11 +43,11 @@ and run jupyter nootebook
 $:  jupyter nootebook
 ```
 
-To make predictions run lightFM_retail_recom_sys_PREDICTIONS.ipynb
+To make predictions run [lightFM_retail_recom_sys_PREDICTIONS.ipynb](https://github.com/AdnanShah/Recommendation-Engine/blob/rest_api_lightfm/lightFM_retail_recom_sys_PREDICTIONS.ipynb)
 
 ## Requirements
 
-- [Python 2.7](https://www.python.org/download/releases/2.7/) or [Python 3.6](https://www.python.org/downloads/release/python-360/)
+- [Python 3.6](https://www.python.org/downloads/release/python-360/)
 - [Jupyter Notebook](http://jupyter.org/)
 
 ## Dependencies
