@@ -1,6 +1,6 @@
 # Recommendation Engine
 
-This repo demonstrate a online retail recommendation engine which recommend items for the user based on thier preference.
+This repo demonstrate a ecommerce recommendation engine which recommend items for the user based on their preference. 
 
 Here are the different notebooks:
 
