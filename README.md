@@ -8,9 +8,7 @@ Here are the different notebooks:
 - [Model Creation](https://github.com/AdnanShah/Python-Recommendation-System/blob/rest_api_lightfm/lightFM_retail_recom_sys_MODEL_CREATION.ipynb): This file is responsible for the creation of deep leaning model. This file use implicit collaborative filtering which is a Deep Learning approach to predict the items.
 - [Making Predictions](https://github.com/AdnanShah/Python-Recommendation-System/blob/rest_api_lightfm/lightFM_retail_recom_sys_PREDICTIONS.ipynb): Making predictions of items user may like based on user_id and also item_id user purchased.
 
-## [Data Source](
-https://www.kaggle.com/jihyeseo/online-retail-data-set-from-uci-ml-repo
-)
+## [Data Source](https://www.kaggle.com/jihyeseo/online-retail-data-set-from-uci-ml-repo)
 
 This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.
 
